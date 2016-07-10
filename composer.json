@@ -1,0 +1,16 @@
+{
+  "name": "developersfoundation/blank",
+  "description": "blank project",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Harrison Chow",
+      "email": "harrison@developersfoundation.ca"
+    }
+  ],
+  "require": {
+    "sendgrid/sendgrid": "5.0.4",
+    "parse/php-sdk": "1.2.1"
+  }
+}
