@@ -38,9 +38,12 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <!--<li><a href="about.html">About</a></li>
-                <li class="dropdown">
+                <?php
+                $file = basename($_SERVER['PHP_SELF']);
+                ?>
+                <li class="<?php if($file == 'index.php') echo 'active'; ?>"><a href="index.php">Home</a></li>
+                <li class="<?php if($file == 'about.html') echo 'active'; ?>"><a href="about.html">About Us</a></li>
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="sidebar-left.html">Left Sidebar</a></li>
@@ -54,15 +57,3 @@
     </div>
 </div>
 <!-- /.navbar -->
-
-<!-- Header -->
-<header id="head">
-    <div class="container">
-        <div class="row">
-            <h1 class="lead">African Canadian Federation of London and Area</h1>
-            <p class="tagline">London, Ontario</p>
-            <p></p>
-        </div>
-    </div>
-</header>
-<!-- /Header -->
