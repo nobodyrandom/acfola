@@ -11,15 +11,15 @@ switch ($linkTo) {
     case "facebook":
         $url = "https://www.facebook.com/";
         break;
-    case "blog":
-    case "rss":
-    case "medium":
-        $url = "https://medium.com/";
-        break;
     case "github":
         $url = "https://github.com/";
         break;
+    case "blog":
+    case "rss":
     case "home":
+        $url = "https://acfola.herokuapp.com/";
+        break;
+    case "dev":
     default:
         $url = "https://developersfoundation.ca";
 }

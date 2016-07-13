@@ -18,10 +18,10 @@
                     <h3 class="widget-title">Follow us</h3>
                     <div class="widget-body">
                         <p class="follow-me-icons">
-                            <a href=""><i class="fa fa-twitter fa-2"></i></a>
-                            <a href=""><i class="fa fa-dribbble fa-2"></i></a>
-                            <a href=""><i class="fa fa-github fa-2"></i></a>
-                            <a href=""><i class="fa fa-facebook fa-2"></i></a>
+                            <a href="links.php?link=twitter"><i class="fa fa-twitter fa-2"></i></a>
+                            <a href="links.php?link=home"><i class="fa fa-dribbble fa-2"></i></a>
+                            <a href="links.php?link=github"><i class="fa fa-github fa-2"></i></a>
+                            <a href="links.php?link=facebook"><i class="fa fa-facebook fa-2"></i></a>
                         </p>
                     </div>
                 </div>
@@ -45,11 +45,11 @@
                 <div class="col-md-6 widget">
                     <div class="widget-body">
                         <p class="simplenav">
-                            <a href="#">Home</a> |
-                            <a href="about.html">About</a> |
-                            <a href="sidebar-right.html">Sidebar</a> |
-                            <a href="contact.html">Contact</a> |
-                            <b><a href="signup.html">Sign up</a></b>
+                            <a href="index.php">Home</a> |
+                            <a href="about.php">About</a> |
+                            <!--<a href="sidebar-right.html">Sidebar</a> |-->
+                            <a href="contact.php">Contact</a> |
+                            <!--<b><a href="signup.html">Sign up</a></b>-->
                         </p>
                     </div>
                 </div>
@@ -57,8 +57,7 @@
                 <div class="col-md-6 widget">
                     <div class="widget-body">
                         <p class="text-right">
-                            Copyright &copy; 2014, Your name. Designed by <a href="http://gettemplate.com/"
-                                                                             rel="designer">gettemplate</a>
+                            <a href="links.php?link=dev">Copyright &copy; 2016, Developers' Foundation. Made with love.</a>
                         </p>
                     </div>
                 </div>
