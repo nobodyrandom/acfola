@@ -42,16 +42,16 @@
                 $file = basename($_SERVER['PHP_SELF']);
                 ?>
                 <li class="<?php if($file == 'index.php') echo 'active'; ?>"><a href="index.php">Home</a></li>
-                <li class="<?php if($file == 'about.html') echo 'active'; ?>"><a href="about.html">About Us</a></li>
+                <li class="<?php if($file == 'about.php') echo 'active'; ?>"><a href="about.php">About Us</a></li>
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="sidebar-left.html">Left Sidebar</a></li>
                         <li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
                     </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>-->
+                </li>-->
+                <li class="<?php if($file == 'contact.php') echo 'active'; ?>"><a href="contact.php">Contact</a></li>
+                <!--<li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>-->
             </ul>
         </div><!--/.nav-collapse -->
     </div>
