@@ -34,22 +34,31 @@
             <!-- Button for smallest screens -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
                     class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo300.png" alt="ACFOLA" style="width: 158px; height: 40px;"></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo300.png" alt="ACFOLA"
+                                                           style="width: 158px; height: 40px;"></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
                 <?php
                 $file = basename($_SERVER['PHP_SELF']);
                 ?>
-                <li class="<?php if($file == 'index.php') echo 'active'; ?>"><a href="index.php">Home</a></li>
-                <li class="dropdown <?php if($file == 'about.php' || $file == 'exec.php') echo 'active'; ?>">
+                <li class="<?php if ($file == 'index.php') echo 'active'; ?>"><a href="index.php">Home</a></li>
+                <li class="dropdown <?php if ($file == 'about.php' || $file == 'exec.php' || $file == 'office.php' || $file == 'committee.php' || $file == 'constitution') echo 'active'; ?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li class="<?php if($file == 'about.php') echo 'active'; ?>"><a href="about.php">Who We Are</a></li>
-                        <li class="<?php if($file == 'exec.php') echo 'active'; ?>"><a href="exec.php">Exec Information</a></li>
+                        <li class="<?php if ($file == 'about.php') echo 'active'; ?>"><a href="about.php">Who We Are</a>
+                        </li>
+                        <li class="<?php if ($file == 'exec.php') echo 'active'; ?>"><a href="exec.php">Exec
+                                Information</a></li>
+                        <li class="<?php if ($file == 'office.php') echo 'active'; ?>"><a href="office.php">Our
+                                Office</a></li>
+                        <li class="<?php if ($file == 'committee.php') echo 'active'; ?>"><a href="committee.php">Committees</a>
+                        </li>
+                        <li class="<?php if ($file == 'constitution.php') echo 'active'; ?>"><a href="constitution.php">Committees</a>
+                        </li>
                     </ul>
                 </li>
-                <li class="<?php if($file == 'contact.php') echo 'active'; ?>"><a href="contact.php">Contact</a></li>
+                <li class="<?php if ($file == 'contact.php') echo 'active'; ?>"><a href="contact.php">Contact</a></li>
                 <!--<li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>-->
             </ul>
         </div><!--/.nav-collapse -->

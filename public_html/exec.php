@@ -24,43 +24,52 @@ include_once "header.php";
         <!-- Article main content -->
         <article class="col-sm-9 maincontent">
             <header class="page-header">
-                <h1 class="page-title">Contact us</h1>
+                <h1 class="page-title">Meet Our Executive Team</h1>
             </header>
-
             <p>
-                We’d love to hear from you. Interested in working together? Fill out the form below with some info about
-                your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.
+                The African Canadian Federation of London and Area (ACFOLA) is registered and operates as a Nonprofit
+                organization in the Canadian Province of Ontario. ACFOLA is an organization that serves and advocates
+                for the inclusion, engagement and integration of African Canadians in community life and development of
+                London and area. The Federation also acts as an umbrella organization for several organizations in the
+                London area. The Federation is governed by its 9 volunteer member board of directors who are elected
+                from its individual and association members. The executive committee members are subsequently elected or
+                appointed from members of the board. The current members of the board and/or executive committee with
+                their positions are shown below.
             </p>
             <br>
-            <form>
+            <h3>Executive Committee and Board Members</h3>
+            <div class="exec-grid">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <input class="form-control" type="text" placeholder="Name">
+                    <div class="col-md-4">
+                        <div class="exec-item">
+                            <img class="exec-photo img-circle" src="assets/images/exec-photo/adamG.jpg"/>
+                            <p class="exec-name">Adam Garba</p>
+                            <p class="exec-postion">President and Chair of Board</p>
+                            <p class="exec-desc">Adam is the President/CEO of A & B Print Inc., Smart Choice
+                                Communications Inc. and a Community Support Activist.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <input class="form-control" type="text" placeholder="Email">
+                    <div class="col-md-4">
+                        <div class="exec-item">
+                            <img class="exec-photo img-circle" src="assets/images/exec-photo/adamG.jpg"/>
+                            <p class="exec-name">Adam Garba</p>
+                            <p class="exec-postion">President and Chair of Board</p>
+                            <p class="exec-desc">Adam is the President/CEO of A & B Print Inc., Smart Choice
+                                Communications Inc. and a Community Support Activist.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <input class="form-control" type="text" placeholder="Phone">
+                    <div class="col-md-4">
+                        <div class="exec-item">
+                            <img class="exec-photo img-circle" src="assets/images/exec-photo/adamG.jpg"/>
+                            <p class="exec-name">Adam Garba</p>
+                            <p class="exec-postion">President and Chair of Board</p>
+                            <p class="exec-desc">Adam is the President/CEO of A & B Print Inc., Smart Choice
+                                Communications Inc. and a Community Support Activist.</p>
+                        </div>
                     </div>
+                    <div class="clearfix"></div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <label class="checkbox"><input type="checkbox"> Sign up for newsletter</label>
-                    </div>
-                    <div class="col-sm-6 text-right">
-                        <input class="btn btn-action" type="submit" value="Send message">
-                    </div>
-                </div>
-            </form>
-
+            </div>
         </article>
         <!-- /Article -->
 
