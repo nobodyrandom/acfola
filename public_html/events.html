@@ -495,34 +495,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom">Latest News</h5>
-            <div class="latest-posts">
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">News Title 1</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">News Title 2</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">News Title 3</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
+        
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Useful Links</h5>
@@ -553,49 +526,7 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row mt-10">
-        <div class="col-md-5">
-          <div class="widget dark">
-            <h5 class="widget-title mb-10">Subscribe Us</h5>
-            <!-- Mailchimp Subscription Form Starts Here -->
-            <form id="mailchimp-subscription-form-footer" class="newsletter-form">
-              <div class="input-group">
-                <input type="email" value="" name="EMAIL" placeholder="Your Email" class="form-control input-lg font-16" data-height="45px" id="mce-EMAIL-footer" style="height: 45px;">
-                <span class="input-group-btn">
-                  <button data-height="45px" class="btn btn-colored btn-theme-colored btn-xs m-0 font-14" type="submit">Subscribe</button>
-                </span>
-              </div>
-            </form>
-            <!-- Mailchimp Subscription Form Validation-->
-            <script type="text/javascript">
-              $('#mailchimp-subscription-form-footer').ajaxChimp({
-                  callback: mailChimpCallBack,
-                  url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
-              });
-
-              function mailChimpCallBack(resp) {
-                  // Hide any previous response text
-                  var $mailchimpform = $('#mailchimp-subscription-form-footer'),
-                      $response = '';
-                  $mailchimpform.children(".alert").remove();
-                  console.log(resp);
-                  if (resp.result === 'success') {
-                      $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                  } else if (resp.result === 'error') {
-                      $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                  }
-                  $mailchimpform.prepend($response);
-              }
-            </script>
-            <!-- Mailchimp Subscription Form Ends Here -->
-          </div>
-        </div>
-        <div class="col-md-3 col-md-offset-1">
-          <div class="widget dark">
-          </div>
-        </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <div class="widget dark">
             <h5 class="widget-title mb-10">Connect With Us</h5>
             <ul class="social-icons icon-dark icon-circled icon-sm">
