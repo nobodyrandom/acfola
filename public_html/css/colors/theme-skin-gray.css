@@ -780,3 +780,63 @@ fieldset[disabled] .btn-theme-colored.focus {
 .icon-box.iconbox-theme-colored.iconbox-border {
   border-color: #757575;
 }
+
+.image-square {
+  height: 50vw;
+  max-height: 640px;
+  overflow: hidden;
+  padding: 0;
+}
+.image-square .image,
+.image-square > .content {
+  position: absolute;
+}
+.image-square .image {
+  height: 100%;
+}
+.image-square > .content {
+  padding: 0 10%;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+}
+.image-square.left .image {
+  left: 0;
+}
+.image-square.left > .content {
+  right: 0;
+}
+.image-square.right .image {
+  right: 0;
+}
+.image-square.right > .content {
+  left: 0;
+}
+@media all and (max-width: 990px) {
+  .image-square {
+    height: auto;
+    max-height: 100000px;
+    padding-bottom: 48px;
+  }
+  .image-square .image,
+  .image-square > .content {
+    position: relative;
+  }
+  .image-square .image {
+    height: 100vw;
+    margin-bottom: 48px;
+    max-height: 500px;
+  }
+  .image-square > .content {
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+    padding: 0 20%;
+  }
+}
+@media all and (max-width: 767px) {
+  .image-square > .content {
+    padding: 0 15px;
+  }
+}
